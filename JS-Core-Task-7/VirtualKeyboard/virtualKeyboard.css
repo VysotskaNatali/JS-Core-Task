@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.buttons {
+  text-align: center;
+  justify-content: center;
+}
+.task_2 {
+  width: 1200px;
+  margin: 50px auto;
+  
+}
+.display {
+  
+  height: 150px;
+  width: 1195px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px #000;
+  padding: 35px;
+  background: #e3e5e8;
+  border-radius: 10px;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+#display {
+  color: #2f3542;
+  font-size: 30px;
+  
+}
+
+.buttons button {
+  margin: 3px;
+  background: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  border: 1px solid #9c9c9c;
+  border-radius: 5px;
+  box-shadow:  0 5px 0  #000;
+}
+.buttons button:active {
+  border: 1px solid #000;
+  background-color:#2e2d2d ;
+  color: #fff;
+  box-shadow: 0 0 5px #e3e5e8;
+}
+.buttons {
+  background: #e3e5e8;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #000;
+}
+.key {
+  height: 45px;
+  width: 70px;
+}
+.Space {
+  height: 45px;
+  width: 1110px;
+}
+.CapsLock {
+  height: 45px;
+  width: 120px;
+}
+.BackSpace, .Shift {
+  height: 45px;
+  width: 150px;
+}
+.enter {
+  height: 45px;
+  width: 100px;
+}
