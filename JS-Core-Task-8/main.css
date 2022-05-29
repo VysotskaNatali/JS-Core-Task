@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+/*----------------------------------- Second Task --------------------------- */
+.createProfile, .profile {
+  width: 600px;
+  height: 550px;
+  margin: 20px auto;
+  border: 2px solid rgb(107, 134, 119);
+  border-radius: 10px;
+}
+.createTop {
+  height: 50px;
+  background-color: rgb(58, 156, 101);
+  color: rgb(246, 248, 250);
+  font-size: 25px;
+  text-align: center;
+  line-height: 50px;
+}
+.createText {
+  margin: 10px 0;
+}
+.createMain {
+  padding: 25px;
+}
+.formCreate {
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgb(155, 150, 150);
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.formCreate:focus {
+  box-shadow: 0 0 5px rgb(58, 156, 101);
+  border: 3px solid rgb(58, 156, 101);
+}
+label {
+  margin: 5px;
+  cursor: pointer;
+}
+input[type ="radio"]{
+display: none;
+}
+.radio span {
+  position: relative; 
+  display: inline-block; 
+  width: 15px;
+   height: 15px; 
+  background-color: rgb(246, 248, 250);
+  border-radius: 50%;
+  box-shadow: inset 0 0 5px rgb(155, 150, 150);
+  
+ }
+ .radio input:checked + span { 
+  background: rgb(40, 123, 192);
+ }
+ .radio input:checked + span::before { 
+  content: '';
+  position: absolute;
+  left: 5px;
+   top: 5px;
+  background-color: rgb(246, 248, 250);
+  width: 5px; height: 5px;
+  border-radius: 50%;
+
+ }
+.check {
+  margin-top: 15px;
+  outline: none;
+}
+.singUp {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(58, 156, 101);
+  color: rgb(246, 248, 250);
+  margin-top: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.profile {
+  height: 484px;
+  margin-bottom: 200px;
+  position: relative;
+}
+.profileColor {
+  height: 100px;
+  background-color: rgb(58, 156, 101);
+  color: rgb(246, 248, 250);
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+}
+.profileImage {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: rgb(246, 248, 250);
+  position: absolute;
+  top: 30px;
+  left: 235px;
+}
+.profileImageMen{
+  background-image: url(./image/man.png);
+}
+.profileImageWomen{
+  background-image: url(./image/woman.png);
+}
+.profileMain {
+  width: 100%;
+  min-height: 100px;
+  margin: 70px auto;
+}
+.profileMain {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+.singOut {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgb(58, 156, 101);
+  color: rgb(58, 156, 101);
+  margin-top: 20px;
+}
+.singOuthover {
+  background-color: rgb(27, 99, 58);
+  color: rgb(246, 248, 250);
+}
+.hidden{
+  display: none;
+}
+/* ----------------------- First Task---------------------- */
+.task_1 {
+  width: 80%;
+  margin: 50px auto;
+}
+.description {
+  font-size: 20px;
+}
+.move_input,
+.placeholder {
+  width: 30%;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 0px 5px;
+  outline: none;
+}
+.move_input:focus {
+  border: 2px solid rgb(35, 117, 90);
+  box-shadow: 0 0 5px rgb(18, 75, 56);
+}
+.colorMove {
+  background-color: rgb(35, 117, 90);
+  font-size: 15px;
+}
+.placeholder {
+  width: 92%;
+  border: 2px solid rgb(146, 145, 145);
+}
+.placeholder:focus {
+  box-shadow: 0 0 5px rgb(42, 107, 114);
+}
