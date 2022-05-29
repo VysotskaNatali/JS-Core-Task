@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(253, 253, 246);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.block {
+  min-height: 320px;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(182, 179, 179);
+  background-color: rgb(211, 211, 211);
+  position: relative;
+}
+p,
+h3,
+table {
+  margin: 10px;
+}
+ul {
+  margin-left: 50px;
+}
+.center-block {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+/* start create button  */
+input[type="button"] {
+  height: 40px;
+  margin:5px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+}
+input[type="button"]:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 7px rgb(107, 107, 107);
+}
+input[type="button"]:focus {
+  cursor: pointer;
+  box-shadow: 0 0 4px rgb(87, 86, 86);
+}
+input[type="button"].btn-edit {
+  color: black;
+  background-color: rgb(241, 218, 15);
+  border: 1px solid rgb(247, 223, 7);
+}
+.btn-style {
+  background-color: rgb(37, 69, 248);
+  border: 1px solid rgb(159, 194, 248);
+}
+.btn-add {
+  background-color: rgb(240, 37, 37);
+  border: 1px solid rgb(247, 68, 68);
+}
+.btn-save,
+.btn-create-list,
+.btn-table {
+  background-color: rgb(29, 100, 29);
+  border: 1px solid rgb(111, 243, 111);
+}
+input[type="button"].btn-text-color,
+.btn-bg-color {
+  background-color: rgb(102, 99, 99);
+  border: 1px solid rgb(77, 76, 76);
+}
+/* end create button  */
+
+/* start create radio-button  */
+label {
+  margin: 0 5px;
+}
+input[type="radio"] {
+  display: none;
+}
+.radio span {
+  position: relative;
+  display: inline-block;
+  margin: -1px 5px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(246, 248, 250);
+  border-radius: 50%;
+  box-shadow: inset 0 0 5px rgb(155, 150, 150);
+}
+.radio input:checked + span {
+  background: rgb(37, 69, 248);
+  box-shadow: 0 0 2px rgb(159, 194, 248);
+}
+.radio input:checked + span::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background-color: rgb(246, 248, 250);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+/* end create radio-button  */
+
+/* start create form  elements */
+#fontFamily,
+.edit-area,
+.border {
+  width: 320px;
+  height: 35px;
+  padding: 0 15px;
+  border: 1px solid rgb(182, 179, 179);
+  border-radius: 5px;
+}
+.edit-area {
+  width: 100%;
+  height: 200px;
+  resize: none;
+}
+.count-list,
+.type-list,
+.tr-td,
+.width-height,
+.style-border {
+  width: calc(100% - 140px);
+  margin: 15px;
+  height: 35px;
+  padding: 0 15px;
+  border: 1px solid rgb(182, 179, 179);
+  border-radius: 5px;
+}
+.count-list {
+  margin-left: 55px;
+}
+.tr-td {
+  margin-left: 31px;
+}
+.style-border {
+  width: calc(33% - 133px);
+  height: 25px;
+  margin: 5px;
+  padding: 0;
+}
+.edit-area:focus,
+#fontFamily:focus,
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border: 2px solid rgb(159, 194, 248);
+  box-shadow: 0 0 5px rgb(159, 194, 248);
+}
+/* end  create form  elements */
+
+/* start create color and background */
+.colors {
+  width: 150px;
+  height: 150px;
+  outline: 1px solid black;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.color-box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+/* end create color and background */
+
+/* start create text */
+.bold {
+  font-weight: bold;
+}
+.cursive {
+  font-style: italic;
+}
+/* end create text */
+
+/* start change block */
+.edit-block,
+.style-block,
+.first,
+.second,
+.create-list,
+.create-table {
+  display: none;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+/*end change block */
