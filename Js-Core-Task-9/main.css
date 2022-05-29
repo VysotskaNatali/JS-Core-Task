@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*------------------------------- Task_1-------------------- */
+.scrollDown,
+.scrollUp {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(213, 216, 216);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.down {
+  min-height: 200px;
+  font-size: 40px;
+}
+.down:hover,
+.up:hover {
+  color: rgb(116, 77, 72);
+  cursor: pointer;
+}
+.slide {
+  width: 290px;
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: end;
+  margin-left: 50px;
+}
+.left {
+  width: 100%;
+  font-size: 40px;
+}
+.leftBord {
+  width: 80%;
+  height: 20px;
+  border-bottom: 5px solid red;
+}
+.image {
+  width: 510px;
+  height: 300px;
+  margin-top: 50px;
+  background-image: url(./image/foto.png);
+  position: absolute;
+  right: 10px;
+}
+.scrollUp {
+  margin-top: 410px;
+  align-items: center;
+}
+.up {
+  font-size: 73px;
+}
+/*------------------------------- Task_2-------------------- */
+.secondTask {
+  width: 100%;
+  min-height: 800px;
+  background-color: #000;
+  font-size: 20px;
+  font-family: cursive;
+}
+.taskList {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  background-image: url(./image/notebook.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 8px solid #000;
+  border-radius: 20px;
+}
+.taskListBlock {
+  width: 600px;
+  height: 390px;
+  margin: 280px auto;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.listForm,
+.addList {
+  width: 250px;
+  margin-left: 70px;
+}
+h1 {
+  font-size: 20px;
+  color: rgb(148, 80, 114);
+}
+input[type="checkbox"] {
+  margin: 7px;
+}
+input[type="text"] {
+  width: 217px;
+  height: 35px;
+  font-size: 20px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  background-image: url(./image/fon.png);
+}
+.add {
+  width: 100px;
+  height: 40px;
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 15px 60px;
+}
+.errorWindow {
+  width: 500px;
+  height: 70px;
+  padding: 5px 15px;
+  color: rgb(148, 80, 114);
+  background-color: rgb(211, 156, 161);
+  box-shadow: 2px 2px 4px 5px rgb(116, 77, 72);
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  opacity: 0.97;
+  display: none;
+}
+.error {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 25px;
+  border: none;
+  color: rgb(148, 80, 114);
+  background-color: rgb(211, 156, 161);
+}
