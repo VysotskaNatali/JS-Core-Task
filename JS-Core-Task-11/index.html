@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task 11</title>
+        <link rel="stylesheet" href="./style/main.css">
+    </head>
+
+    <body>
+        <div class="block">
+            <div class="digital">
+                <div class="digital-date">22.2.2020</div>
+                <div class="digital-clock">12:00:00</div>
+            </div>
+        </div>
+        <div class="block flex">
+            <div class="stopwatch-block">
+                <div class="stopwatch-time"> 00:00:00:000 </div>
+                <div class="stopwatch-btn">
+                    <button class="btn-start" onclick="start()" >start</button>
+                    <button class="btn-loop" onclick="loop()" >loop</button>
+                    <button class="btn-stop" onclick="stop()" >stop</button>
+                    <button class="btn-reset"onclick="reset()" >reset</button>
+                </div>
+            </div>
+            <div class="stopwatch-loop">
+                <div class="loop"></div>
+            </div>
+        </div>
+        <div class="block flex">
+            <div class="countdown-time-set">
+                <div class="countdown-number">25</div>
+                <div class="countdown-minutes">minutes</div>
+                <button class="btn-plus" onclick="plus()">+</button>
+                <button class="btn-minus" onclick="minus()">-</button>
+            </div>
+            <div class="countdown-time-start">
+                <div class="start-time">
+                    <span class="minutes">00</span>
+                    <span>:</span>
+                    <span class="seconds">00</span>
+                </div>
+                <button class="btn-cd-start" onclick="cdStart()">start</button>
+                <button class="btn-cd-stop" onclick="cdStop()">stop</button>
+                <button class="btn-cd-reset" onclick="cdReset()">reset</button>
+            </div>
+
+
+            <script src="script.js"></script>
+        </body>
+
+    </html>
